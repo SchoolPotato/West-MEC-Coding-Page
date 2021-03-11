@@ -1,0 +1,20 @@
+div.navDiv {
+    nav {
+        display: flex;
+        margin: 0rem;
+        padding: {
+            top :1rem;
+            bottom: 1rem;
+        }
+        border: {
+            bottom-right-radius: 1rem;
+            bottom-left-radius: 1rem;
+            bottom: 0.05rem solid white;
+        }
+        a {
+            justify-content: space-evenly;
+            font-size: 1.5rem;
+            margin: auto;
+        }
+    }
+}
