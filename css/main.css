@@ -7,10 +7,10 @@ div.navDiv nav {
   padding-bottom: 1rem;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
-  border-bottom: 0.05rem solid white;
+  border-bottom: 0.2rem solid #FAA61A;
 }
 
-div.navDiv nav a {
+div.navDiv nav a#navlink {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -18,17 +18,50 @@ div.navDiv nav a {
   margin: auto;
 }
 
+div#programDescription {
+  max-width: 32rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: black;
+}
+
+p#programDescriptionHeader {
+  font-size: 1.17em;
+}
+
+@font-face {
+  font-family: NESFont;
+  src: url(../fonts/PressStart2P-Regular.ttf);
+}
+
 body {
   background-color: black;
+  background-image: url(../images/wm-stars-background.png);
+  background-size: 30%;
   color: white;
 }
 
 * {
   margin: 0rem;
   padding: 0rem;
+  font-family: NESFont;
+}
+
+img#west-mec-logo {
+  max-width: 3.5rem;
+  margin-left: 3rem;
 }
 
 div.navDiv nav {
   background-color: black;
+  -webkit-box-shadow: 0.2rem 0.2rem 0rem 0.45rem black;
+          box-shadow: 0.2rem 0.2rem 0rem 0.45rem black;
+}
+
+div.navDiv nav a {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

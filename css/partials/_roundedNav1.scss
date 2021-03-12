@@ -9,12 +9,28 @@ div.navDiv {
         border: {
             bottom-right-radius: 1rem;
             bottom-left-radius: 1rem;
-            bottom: 0.05rem solid white;
+            bottom: 0.2rem solid #FAA61A;
         }
-        a {
+        a#navlink {
             justify-content: space-evenly;
             font-size: 1.5rem;
             margin: auto;
         }
     }
+}
+
+div#programDescription {
+    max-width: 32rem;
+    display: block;
+    margin: {
+        left: auto;
+        right: auto;
+        top: 4rem;
+    }
+    padding: 2rem;
+    background-color: black;
+}
+
+p#programDescriptionHeader {
+    font-size: 1.17em;
 }

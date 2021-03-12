@@ -1,8 +1,14 @@
 @import "partials/roundedNav1";
+@font-face {
+    font-family: NESFont;
+    src: url(../fonts/PressStart2P-Regular.ttf);
+}
 
 body {
     background: {
         color: black;
+        image: url(../images/wm-stars-background.png);
+        size: 30%;
     }
     color: white;
 }
@@ -10,10 +16,20 @@ body {
 * {
     margin: 0rem;
     padding: 0rem;
+    font-family: NESFont;
+}
+
+img#west-mec-logo{
+    max-width: 3.5rem;
+    margin-left: 3rem;
 }
 
 div.navDiv {
     nav {
         background-color: black;
+        a {
+            color: white;
+        }
+        box-shadow: 0.2rem 0.2rem 0rem 0.45rem rgba(0, 0, 0, 1);
     }
 }
