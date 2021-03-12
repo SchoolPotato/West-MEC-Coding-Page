@@ -52,7 +52,7 @@ div#careerPathways {
     max-height: 30rem;
     display: block;
     margin: {
-        left:25%;
+        left:27%;
         top: 4rem;
     }
     padding: 2.02rem;
@@ -64,7 +64,7 @@ div#video {
     display: block;
     margin: {
         top: 4rem;
-        margin-bottom: 4rem;
+        bottom: 4rem;
         left: auto;
         right: auto;
     }
@@ -121,4 +121,23 @@ img#programDescriptionImage {
 img#careerPathwaysImage {
     max-width: 24rem;
     margin-right: 6rem;
+}
+
+button#showHideFooter {
+    display: block;
+    margin: {
+        left: auto;
+        right: auto;
+    }
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border: {
+        top-right-radius: 1rem;
+        top-left-radius: 1rem;
+        top: 0.2rem solid #FAA61A;
+        left: 0rem solid rgba(0, 0, 0, 0);
+        right: 0rem solid rgba(0, 0, 0, 0);
+    }
+    cursor: pointer;
 }

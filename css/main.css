@@ -18,6 +18,34 @@ div.navDiv nav a#navlink {
   margin: auto;
 }
 
+div.footerDiv footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top: 0.2rem solid #FAA61A;
+  background-color: black;
+  -webkit-box-shadow: -0.2rem -0.2rem 0rem 0.45rem black;
+          box-shadow: -0.2rem -0.2rem 0rem 0.45rem black;
+}
+
+div.footerDiv footer button, div.footerDiv footer p, div.footerDiv footer a {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 0.7rem;
+  margin: auto;
+  line-height: 0.9rem;
+}
+
+div.footerDiv footer a {
+  color: white;
+}
+
 @font-face {
   font-family: NESFont;
   src: url(../fonts/PressStart2P-Regular.ttf);
@@ -64,7 +92,7 @@ div#careerPathways {
   max-width: 60rem;
   max-height: 30rem;
   display: block;
-  margin-left: 25%;
+  margin-left: 27%;
   margin-top: 4rem;
   padding: 2.02rem;
 }
@@ -74,7 +102,7 @@ div#video {
   max-height: 30rem;
   display: block;
   margin-top: 4rem;
-  margin-margin-bottom: 4rem;
+  margin-bottom: 4rem;
   margin-left: auto;
   margin-right: auto;
   padding: 2.02rem;
@@ -129,5 +157,20 @@ img#programDescriptionImage {
 img#careerPathwaysImage {
   max-width: 24rem;
   margin-right: 6rem;
+}
+
+button#showHideFooter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top: 0.2rem solid #FAA61A;
+  border-left: 0rem solid rgba(0, 0, 0, 0);
+  border-right: 0rem solid rgba(0, 0, 0, 0);
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
