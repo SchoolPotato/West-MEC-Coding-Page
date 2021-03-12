@@ -4,6 +4,8 @@
     src: url(../fonts/PressStart2P-Regular.ttf);
 }
 
+$west-mec-color: #FAA61A;
+
 body {
     background: {
         color: black;
@@ -32,4 +34,91 @@ div.navDiv {
         }
         box-shadow: 0.2rem 0.2rem 0rem 0.45rem rgba(0, 0, 0, 1);
     }
+}
+
+div#programDescription {
+    max-width: 55rem;
+    max-height: 30rem;
+    display: block;
+    margin: {
+        left: 6%;
+        top: 4rem;
+    }
+    padding: 2.02rem;
+}
+
+div#careerPathways {
+    max-width: 60rem;
+    max-height: 30rem;
+    display: block;
+    margin: {
+        left:25%;
+        top: 4rem;
+    }
+    padding: 2.02rem;
+}
+
+div#video {
+    max-width: 60rem;
+    max-height: 30rem;
+    display: block;
+    margin: {
+        top: 4rem;
+        margin-bottom: 4rem;
+        left: auto;
+        right: auto;
+    }
+    padding: 2.02rem;
+}
+
+iframe#video {
+    display: block;
+    margin: {
+        left: auto;
+        right: auto;
+    }
+}
+
+p#programDescriptionHeader, p#careerPathwaysHeader {
+    font-size: 1.5em;
+    display: inline-block;
+    color: $west-mec-color;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+p#videoHeader {
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: $west-mec-color;
+}
+
+p#careerPathwaysHeader {
+    text-align: right;
+    max-width: 34rem;
+    float: right;
+}
+
+p#programDescription {
+    max-width: 25rem;
+    float: left;
+    line-height: 1.2rem;
+    background-color: black;
+}
+
+p#careerPathways {
+    max-width: 30rem;
+    text-align: right;
+    float: right;
+    background-color: black;
+    line-height: 1.2rem;
+}
+
+img#programDescriptionImage {
+    max-width: 24rem;
+    margin-left: 6rem;
+}
+
+img#careerPathwaysImage {
+    max-width: 24rem;
+    margin-right: 6rem;
 }
