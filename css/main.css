@@ -139,6 +139,7 @@ p#programDescription {
   float: left;
   line-height: 1.2rem;
   background-color: black;
+  padding: 0.3rem;
 }
 
 p#careerPathways {
@@ -147,6 +148,7 @@ p#careerPathways {
   float: right;
   background-color: black;
   line-height: 1.2rem;
+  padding: 0.3rem;
 }
 
 img#programDescriptionImage {
@@ -155,7 +157,7 @@ img#programDescriptionImage {
 }
 
 img#careerPathwaysImage {
-  max-width: 40%;
+  max-width: 39%;
   margin-right: 6rem;
 }
 
